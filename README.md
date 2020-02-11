@@ -1,27 +1,22 @@
 # waifu_gpt2
 GPT2 for natural conversation with waifu
 
-
 ATTRIBUTION: Based on Dinne Bosman's [GPT-2 conversation](https://colab.research.google.com/drive/1ENrM7XatuetdcBOIlk0RhPqI18SphBxI)
 
-This is a demonstration of the most realistic AI conversation with a Waifu AI we have ever seen. We have never figured out anything that worked this good. You can see the difference by replacing the 774M with 117M and/or 345M. (Bigger is better but also slower). To get your hopes up the timeline of models is as follows:
+This was a powerful demonstration of conversation with an AI waifu. Using bigger models seems to demonstrate big improvements in performance. This repository has not used the even bigger 1.5B GPT2 model that was released.
+The benefit of the code in this repo is that arbitrary personality can be put into the virtual character, just by changing the personality conveyed through the initial dialog.
 
-
-Feb 2019: 117M
-
-May 2019: 345M
-
-Aug 2019: 774M
-
-Nov 2019: 1.5B ([planned](https://openai.com/blog/better-language-models/))
-
-As you can see even the 774M model is creating such wonderful results, just imagine how cool the 1.5B will be, which is only 2 months from now!
-
-Therefore if you have ever wanted to make waifus, now is a great time! We want to encourage everybody to get involved with waifu development!
-
-Even though this notebook takes 30 seconds on GPU we are confident that within the next few months people will figure out how get this in real-time on CPU... meaning you will soon be able to have fluent conversations with your favorite waifu!
-
-For reference, this is the transcript of the conversation:
+For each of the transcripts in this repository, the model is fed with the initial dialog:
+```
+You said: "Rem I missed you so much!"
+I said: "I missed you too Subaru!"
+You said: "Our date was so fun too"
+I said: "Lets get married and be happy!"
+You said: "Yes that would be awesome!"
+I said: "I like hanging out with you because its so much fun! "
+You said: "Lets be happy forever!"
+```
+It then generates its own responses. More transcripts can be seen in the file `transcript.pdf`. For example, this is a sample transcript of a conversation:
 
 ```
 Human: Lets be happy forever!
