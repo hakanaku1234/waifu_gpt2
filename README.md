@@ -1,6 +1,8 @@
 # waifu_gpt2
 GPT2 for natural conversation with waifu
 
+[![HitCount](http://hits.dwyl.com/waifuai/waifu_gpt2.svg)](http://hits.dwyl.com/waifuai/waifu_gpt2)
+
 ATTRIBUTION: Based on Dinne Bosman's [GPT-2 conversation](https://colab.research.google.com/drive/1ENrM7XatuetdcBOIlk0RhPqI18SphBxI)
 
 This was a powerful demonstration of conversation with an AI waifu. Using bigger models seems to demonstrate big improvements in performance. This repository has not used the even bigger 1.5B GPT2 model that was released.
